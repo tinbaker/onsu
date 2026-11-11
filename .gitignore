@@ -1,0 +1,37 @@
+*.iml
+.gradle
+.kotlin
+/local.properties
+/.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+.env
+# Toolchain cục bộ dùng để build (Gradle + Android SDK), không commit
+/.toolchain
+# Asset web còn sót lại từ AI Studio, app Android không dùng
+/public/
+
+# Cloud Functions
+/firebase/functions/node_modules
+/firebase/.firebaserc
+/firebase/functions/.env
+
+# ==== Chuẩn bị cho GitHub (repo private) ====
+# Dữ liệu nội bộ của công cụ AI: chỉ bỏ qua khi commit, KHÔNG xoá khỏi máy
+/.aistudio/
+/.workbuddy-ai/
+
+# Binary, khoá ký và cấu hình Firebase local
+*.apk
+*.aab
+*.jks
+*.keystore
+google-services.json
+
+# Ngoại lệ: khoá debug dùng chung để mọi máy clone có cùng SHA-1 như trong
+# README-AUTH.md. Chỉ dùng cho bản debug (mật khẩu "android"), KHÔNG ký release.
+!debug.keystore

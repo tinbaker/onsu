@@ -1,0 +1,13 @@
+{
+  "name": "onsu-auth-functions",
+  "description": "Sinh, gửi và kiểm tra mã xác nhận 6 số cho Onsu",
+  "private": true,
+  "engines": {
+    "node": "20"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^12.6.0",
+    "firebase-functions": "^5.1.1"
+  }
+}

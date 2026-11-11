@@ -1,0 +1,6 @@
+{
+  "name": "Onsu",
+  "description": "Smart personalized music player combining local and online audio with intelligent taste scoring.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

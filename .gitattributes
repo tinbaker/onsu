@@ -1,0 +1,15 @@
+# Giữ LF cho script chạy trên macOS/Linux và CRLF cho batch Windows.
+* text=auto
+gradlew text eol=lf
+gradlew.bat text eol=crlf
+*.bat text eol=crlf
+*.sh text eol=lf
+
+# Binary: không bao giờ đổi EOL
+*.jar binary
+*.keystore binary
+*.jks binary
+*.apk binary
+*.png binary
+*.webp binary
+*.jpg binary
