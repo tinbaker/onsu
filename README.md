@@ -102,7 +102,7 @@ them.
 ## Data sources & credits
 
 - Track metadata and streams: [Audius](https://audius.co) discovery API
-  (`/v1/tracks/trending`, `app_name=Onsu`).
+  (`/v1/tracks/trending`).
 - Fallback demo audio: [SoundHelix](https://www.soundhelix.com/audio-examples)
   Creative Commons sample MP3s.
 - Fallback artwork: [Picsum Photos](https://picsum.photos).
